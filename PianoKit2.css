@@ -20,6 +20,10 @@ body{
     --width: 100px;
     background-color: white;
     border: 1px solid #333;
+    font-style: normal;
+    font-family: monospace;
+    text-align: center;
+    font-size: 20px;
 }
 
 .white.active {
@@ -32,6 +36,12 @@ body{
     margin-left: calc(var(--width) / -2);
     margin-right: calc(var(--width) / -2);
     z-index: 2;
+    font-style: normal;
+    font-family: monospace;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    
 }
 
 .black.active {
